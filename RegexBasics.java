@@ -26,7 +26,7 @@ public class RegexBasics {
       for(int j = 0; j < arr.get(i).size(); j++) {
         System.out.println(
           arr.get(i).get(j)+" is"+
-          (arr.get(i).get(j).matches(regexes[i]) ? " not " : " ")+
+          (arr.get(i).get(j).matches(regexes[i]) ? " " : " not ")+
           "a valid "+types[i]
         );
       }
